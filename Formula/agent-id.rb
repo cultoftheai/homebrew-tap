@@ -1,7 +1,7 @@
 class AgentId < Formula
   desc "Give an AI coding agent its own GitHub App identity"
-  homepage "https://github.com/cultofthecode/agent-id"
-  url "https://github.com/cultofthecode/agent-id/archive/refs/tags/v0.1.0.tar.gz"
+  homepage "https://github.com/cultoftheai/agent-id"
+  url "https://github.com/cultoftheai/agent-id/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "081dd80b23da117bdfeaa8dc4f9d5ff7ce0b6f7028fbdb1d6f8cd16fec34abaf"
   license "Apache-2.0"
 

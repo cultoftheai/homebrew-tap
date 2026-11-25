@@ -1,11 +1,11 @@
 class Orbit < Formula
   desc "Run coding agents in sandboxes on OrbStack"
-  homepage "https://github.com/cultofthecode/orbit"
+  homepage "https://github.com/cultoftheai/orbit"
   # The orbit release workflow sets url and sha256.
-  url "https://github.com/cultofthecode/orbit/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/cultoftheai/orbit/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "03011bc58b7c6cff2fe75e0f7428f50068c87e63523a2f4698dac5b8cd27a000"
   license "Apache-2.0"
-  head "https://github.com/cultofthecode/orbit.git", branch: "main"
+  head "https://github.com/cultoftheai/orbit.git", branch: "main"
 
   depends_on "go" => :build
   depends_on arch: :arm64
