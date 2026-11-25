@@ -20,5 +20,5 @@ jobs:
       - name: Check tap syntax
         run: brew test-bot --only-tap-syntax
 
-      - name: Audit the formula
-        run: brew audit --strict cultoftheai/tap/orbit
+      - name: Audit the formulae
+        run: brew audit --strict cultoftheai/tap/orbit cultoftheai/tap/agent-id
